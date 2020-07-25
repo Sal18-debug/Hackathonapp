@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">TestApplication</string>
+
+    <string name="LoginPageMessage">Please Type In Your Information To Login</string>
+
+    <string name="EmailHint">Email</string>
+
+    <string name="PasswordHint">Password</string>
+
+    <string name="LoginButtonName">Login</string>
+
+    <string name="ErrorLoginPageMessage">Your Username/Password is incorrect</string>
+
+    <string name="LogoutButtonLabel">Logout</string>
+
+    <string name="Submit_button_title">Submit</string>
+
+    <string name="UserNameHint">Username</string>
+    <string name="title_activity_anxietytab">anxietytab</string>
+    <string name="tab_text_1">Symptoms</string>
+    <string name="tab_text_2">How to Cope</string>
+    <string name="title_activity_asper">MainActivity</string>
+    <string name="title_home">Challenges</string>
+    <string name="title_dashboard">Discussion</string>
+    <string name="title_notifications">Rewards</string>
+
+</resources>

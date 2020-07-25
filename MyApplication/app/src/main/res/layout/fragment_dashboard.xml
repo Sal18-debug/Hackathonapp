@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Talk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat pretium nibh, euismod viverra nisi fringilla at. Nunc et ipsum lacinia, tincidunt augue sit amet, fringilla urna. Praesent malesuada quis libero quis tristique. Praesent quis blandit nisi. Morbi consectetur leo id ipsum sodales, nec interdum leo ultrices. Fusce feugiat ante sed dictum scelerisque. Vivamus lectus orci, tempor eu nisi sit amet, ultricies blandit tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis efficitur, risus vitae dictum volutpat, nisl mi dignissim massa, non finibus est nisi ac leo. Donec sit amet ligula pharetra, pulvinar sapien in, aliquam nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut facilisis vehicula libero, sit amet commodo urna iaculis vel. Donec dolor nisi, egestas eu eros id, egestas sagittis odio. Ut vel malesuada urna. Sed lacinia convallis vulputate. Etiam et dui eget justo dapibus luctus.  Praesent ornare, orci luctus aliquet volutpat, risus purus semper elit, eu egestas neque leo condimentum arcu. Morbi et nibh sagittis, eleifend tortor eget, luctus augue. Nam egestas nibh sem, vitae ornare mi consectetur eu. Integer scelerisque orci et elementum aliquet. Sed sed consequat eros. Fusce blandit pellentesque augue, nec tempus enim ultricies et. Nam mauris ligula, convallis a placerat eu, semper a ex. In dictum tellus in neque iaculis, pretium mollis arcu faucibus. Sed sagittis sapien sit amet dapibus faucibus. Fusce pretium magna et tellus auctor, sit amet blandit massa efficitur. Nam scelerisque eleifend arcu eget finibus. Donec egestas mi sit amet lectus vulputate venenatis. Maecenas scelerisque at augue vel porttitor. Fusce vitae sollicitudin nisl. Pellentesque aliquet ac metus sit amet viverra. Curabitur sagittis efficitur laoreet.  Nunc at enim enim. Proin ut augue interdum, congue odio vel, dapibus sapien. Nulla dolor nunc, sollicitudin ut leo at, dignissim dictum augue. Integer nec venenatis quam. Vestibulum condimentum, risus vel dignissim fermentum, erat neque congue massa, sit amet hendrerit purus leo quis dui. Nulla quis ipsum a lorem gravida tempor. Vivamus dignissim bibendum mauris, id dictum nunc faucibus ac. Donec rhoncus turpis velit, in efficitur eros tincidunt sit amet. In sit amet purus ex. Mauris lobortis tristique posuere. Etiam dignissim nunc odio, vehicula dignissim mauris viverra vel. Nam eros elit, dapibus quis pulvinar a, dapibus a libero. Pellentesque placerat enim sit amet aliquet laoreet. Cras vestibulum consectetur tellus in consectetur.  Suspendisse venenatis lectus eget mi commodo tincidunt. Donec eu convallis ante. Donec iaculis faucibus massa, sed luctus enim viverra sed. Pellentesque posuere dictum ante, non tempor nunc blandit eget. Proin lorem massa, efficitur vel vestibulum sed, volutpat vel turpis. Sed id interdum ligula. Proin hendrerit, urna sit amet placerat pellentesque, est turpis volutpat nibh, ut cursus nisl ipsum eu ligula. In at pulvinar ante, sed aliquam libero.  Proin luctus dolor blandit, semper nisl quis, luctus tortor. Proin cursus mollis euismod. Nunc gravida diam ut euismod mollis. Proin eleifend nisl id elit convallis eleifend. Suspendisse potenti. Proin vitae euismod purus. Quisque a tortor at nulla imperdiet pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam rhoncus, ipsum ac feugiat feugiat, sem dolor tincidunt est, at iaculis risus urna sit amet nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eros dui, bibendum a pharetra vitae, elementum vitae ligula.  " />
+
+            <TextView
+                android:id="@+id/text_dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
